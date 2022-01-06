@@ -10,7 +10,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gin-gonic/gin/binding"
+	"github.com/Tiemma/gin/binding"
 	"github.com/stretchr/testify/assert"
 )
 
