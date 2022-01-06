@@ -14,7 +14,7 @@ import (
 )
 
 // Check interface implemented here to support go build tag nomsgpack.
-// See: https://github.com/Tiemma/gin/pull/1852/
+// See: https://github.com/tiemma/gin/pull/1852/
 var (
 	_ Render = MsgPack{}
 )

@@ -7,7 +7,7 @@ package gin
 import (
 	"log"
 
-	"github.com/Tiemma/gin/binding"
+	"github.com/tiemma/gin/binding"
 )
 
 // BindWith binds the passed struct pointer using the specified binding engine.

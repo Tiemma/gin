@@ -10,8 +10,8 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/Tiemma/gin/internal/bytesconv"
-	"github.com/Tiemma/gin/internal/json"
+	"github.com/tiemma/gin/internal/bytesconv"
+	"github.com/tiemma/gin/internal/json"
 )
 
 // JSON contains the given interface object.

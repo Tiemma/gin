@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/Tiemma/gin"
+	"github.com/tiemma/gin"
 )
 
 var once sync.Once

@@ -11,7 +11,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/Tiemma/gin/internal/bytesconv"
+	"github.com/tiemma/gin/internal/bytesconv"
 )
 
 var (

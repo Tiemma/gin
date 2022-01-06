@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Tiemma/gin/binding"
 	"github.com/stretchr/testify/assert"
+	"github.com/tiemma/gin/binding"
 )
 
 func init() {

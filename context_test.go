@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Tiemma/gin/binding"
-	testdata "github.com/Tiemma/gin/testdata/protoexample"
 	"github.com/gin-contrib/sse"
 	"github.com/stretchr/testify/assert"
+	"github.com/tiemma/gin/binding"
+	testdata "github.com/tiemma/gin/testdata/protoexample"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -338,7 +338,7 @@ func TestContextHandlerName(t *testing.T) {
 	c, _ := CreateTestContext(httptest.NewRecorder())
 	c.handlers = HandlersChain{func(c *Context) {}, handlerNameTest}
 
-	assert.Regexp(t, "^(.*/vendor/)?github.com/Tiemma/gin.handlerNameTest$", c.HandlerName())
+	assert.Regexp(t, "^(.*/vendor/)?github.com/tiemma/gin.handlerNameTest$", c.HandlerName())
 }
 
 func TestContextHandlerNames(t *testing.T) {

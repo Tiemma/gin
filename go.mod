@@ -1,4 +1,4 @@
-module github.com/Tiemma/gin
+module github.com/tiemma/gin
 
 go 1.16
 

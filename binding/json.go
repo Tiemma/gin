@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Tiemma/gin/internal/json"
+	"github.com/tiemma/gin/internal/json"
 )
 
 // EnableDecoderUseNumber is used to call the UseNumber method on the JSON

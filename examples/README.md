@@ -1,3 +1,3 @@
 # Gin Examples
 
-⚠️  **NOTICE:** All gin examples have been moved as standalone repository to [here](https://github.com/Tiemma/examples).
+⚠️  **NOTICE:** All gin examples have been moved as standalone repository to [here](https://github.com/tiemma/examples).

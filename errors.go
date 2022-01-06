@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Tiemma/gin/internal/json"
+	"github.com/tiemma/gin/internal/json"
 )
 
 // ErrorType is an unsigned 64-bit error code as defined in the gin spec.

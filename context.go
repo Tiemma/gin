@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Tiemma/gin/binding"
-	"github.com/Tiemma/gin/render"
 	"github.com/gin-contrib/sse"
+	"github.com/tiemma/gin/binding"
+	"github.com/tiemma/gin/render"
 )
 
 // Content-Type MIME of the most common data formats.

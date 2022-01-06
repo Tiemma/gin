@@ -8,7 +8,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/Tiemma/gin/binding"
+	"github.com/tiemma/gin/binding"
 )
 
 // EnvGinMode indicates environment name for gin mode.
